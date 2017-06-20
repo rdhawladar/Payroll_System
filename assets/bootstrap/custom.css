@@ -1,0 +1,47 @@
+body{
+	padding-top: 1000px;
+	padding-bottom: 100px;
+    background: #555;
+}
+.grade{
+	width:15%;
+}
+
+.button-pay-date {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button-pay-date span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-pay-date-pay-date span:after {
+  content: '?';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-pay-date:hover span {
+  padding-right: 25px;
+}
+
+.button-pay-date-pay-date:hover span:after {
+  opacity: 1;
+  right: 0;
+}

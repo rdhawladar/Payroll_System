@@ -1,0 +1,16 @@
+how to run the system
+
+1st create a database in phpmyadmin name payroll_tmss
+then import the database from the sql folder
+
+2nd copy the payroll_tmss folder to htdocs of xampp
+directory localdisk C/D: xampp->htdocs (Note:depends were you install your xampp)
+
+3rd your done just run the system on a browser by this address
+localhost/payroll_tmss
+
+for admin  credentials for email and password use admin
+
+
+
+Note: this is not for Company use it is for Educational only
